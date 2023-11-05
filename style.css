@@ -1,3 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+  /* homepage */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+
+}
+
+h3{
+    text-align: center;
+}
+
 #homepage{
     position: absolute;
     left: 50%;
@@ -8,10 +24,14 @@
     transform: translate(-50%, -50%);
 }
 
-#button{
-    
+#container{
+    position: relative;
+    background-color: lightgreen;
+    padding: 2%;
+    margin: 2% 15%;
+    line-height: 30px;
 }
-
+ 
 a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit the color from the parent element */
