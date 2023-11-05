@@ -1,10 +1,18 @@
 #homepage{
     position: absolute;
     left: 50%;
+    color: white;
     top: 50%;
+    padding: 10%;
+    background-color: black;
     transform: translate(-50%, -50%);
 }
 
 #button{
     
 }
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+  }
