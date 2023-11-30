@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Negar Roofigari</p>
+    <p>Mariam Aoune</p>
+
+    <h3>Prototype - CART360</h3>
+    <div id="container">
+
+        <p>Team members: Mariam Aoune, Negar Roofigari</p>
+         <p>For this prototype, our focus was on refining the concept and laying the foundation for our final project. We both worked on everything together which really helped us during the prototyping process and did not impose any limitations. We were fortunate to have opportunities to meet in person, allowing us to ensure that we were aligned in real-time, and that we could clarify any uncertainties, and address each other's questions. The work involved conceptualizing, initial researching, seeing into how sensors work, watching tutorials, creating the map journey, Negar's focus was slightly more on the circuits,  Mariam's was on the code.
+        </p>   
+        <p>As we transition to the next phase, which involves presenting the final piece with a focus on aesthetics, functionality, materiality, and fidelity to our goal, as well as addressing other aspects, such as design, mock-ups, in-depth research on plant data, types, state machines, and sensory elements, we will need to undertake more individual work and allocate tasks accordingly. This approach would be more time efficient and smoother. Nevertheless, our commitment remains in meeting and discussing matters as a team.
+        </p>
+        
+        <h2>A written response which addresses the practicalities of ideation, iteration and prototype, what have you learnt through the process leading up to the prototype presentation ?
+        </h2>
+    
+        <p>After further research and delving into the design process, the problem statement for the project was reframed. Our focus is to foster a deeper connection between plants and humans. Hence, we aimed to put forward specific actions that leverage the way a plant can communicate with a human. Our refined problem statement asks, How can we establish a reciprocal relationship between humans and plants, creating mindful activities for plant enthusiasts, and discovering amusing ways for plants to signal their needs to humans?
+        </p>
+
+        <p> After extensive research and discussions, our objective framework included: </p>
+    
+            <ul>
+                <li>Using sensory stimulation to enhance the overall experience and accommodate various disabilities.</li>
+                
+                <li>Awakening emotions such as pride, affection, and awareness.
+                </li>
+                <li>Improving plant-human interaction by signaling the plant's needs through user-friendly outputs.
+                </li>
+                <li>Encouraging users to view plant care not as a chore but as a mindful, enriching activity that fosters their love for plants.
+                </li>
+                <li>Adopting a sustainable approach to minimize environmental impact.
+                </li>
+                </ul>
+    
+        <p>Starting off, we wanted to get our hands on some value, postponing handling of the values to further time to get a preliminary view of first working with the arduino, and second dabbling with the sensors, 
+        </p>
+    
+        <p>Our next phase would be to actualize our concept by combining the components and treating them as a cohesive, whole system.
+        </p>
+        
+        <p>During our iteration phase, we considered incorporating several sensory features into the project to detect various plant information, such as moisture and nutrient levels. Given that the plant’s environment depends on the user's motivation to monitor and care for it, we aimed to facilitate data variation through user input. We discussed the plant's needs, decided to use sensors to gather data on these needs, and ensured the plant could signal its needs to allow human intervention.
+        </p>
+        
+        <p>Plant needs may include watering, adding nutrients, and light accommodation. Moisture level and NPK sensors enabled us to monitor the plant's needs and detect any deficiencies. If any are detected, the plant will signal its need for nourishment either through sound or visual display.
+        </p>
+        
+        <p>There are some decisions we made that echoed in the process of  prototyping. First, focusing on individual parts rather than their interconnection, which made it easier for us to to work with the sensors. Second, knowing the intention behind each component. Because our aim is to have multiple interactions, it is important for us to constantly redefine and mold their purposes in a way that creates a point for the interaction. Third, recognizing that although automation is convenient and pervasive as a motive for any invention it's not the point of this project.
+        </p>
+    
+        <h2>An accurate and Technical Evaluation of Sensors and their associated Affordances which would ideally support your project’s proposed Interaction Design Strategy.
+        </h2>
+
+        <p><u>Moisture level sensor</u></p>
+        <p>The Robotbanao Soil Hygrometer module is a convenient tool for sensing soil moisture levels, helping determine if plants are overwatered or underwatered. It includes two probes that function as variable resistors, working on the principle of conductivity and resistance. These probes allow current to pass through the soil, measuring the resistance to determine moisture levels. As soil moisture increases, conductivity between the probes rises and resistance drops. Conversely, as moisture decreases, conductivity falls and resistance rises. The module translates this resistance variation into a voltage that can be read through the Arduino's analog pins.
+        </p>
+        <p><u>NPK sensor</u></p>
+     
+    
+        <p>The NPK sensor measures the amount of Nitrogen Phosphorus and Potassium present in the soil content. We believe this is a great tool for anyone who wants to determine additional nutrient content the plant may need. The sensor works with a Modbus RS485 to transfer information from the sensor to the arduino. The sensor works on 12-24V power and the measuring resolution is up to 1 mg/kg. This information was found in the article <a href="https://how2electronics.com/measure-soil-nutrient-using-arduino-soil-npk-sensor/">Measure Soil Nutrient using Arduino & Soil NPK Sensor.</a> </p>
+    
+        <p>These two sensors will ultimately provide us with the necessary data to figure out the health of the plant and send human-friendly information through sound, visual display or a notification on the app. Human intervention will regulate the plant with its necessary needs therefore giving optimal health to grow. An ongoing cycle occurs as long as information is being outputted accordingly and the user intervenes in an expected manner. 
+        </p>
+
+        <h2>Has your Project’s initial intention or supposed meaning changed over the course of researching and implementing the Physical Prototype? If YES or NO – Explain why?
+        </h2>
+    
+        <p>First and foremost, we needed to acquaint ourselves with our “buddies”: plants. The most critical difference between humans and plants is the lack of muscle and nervous systems in plants. But akin to us, research has shown that plants have an instinct to survive, which affords them the ability to use tactics and the capacity to sense their surroundings.
+        </p>
+    
+        <p>Sensing is how we make sense of the world around us, and it's how we “see” each other. Therefore, it was imperative for us to explore the concept of how humans “see”' plants and, conversely, how plants “see” humans. The notion of “seeing” opens up the discussion of being perceived, which on the “user” human side, being perceived by the plant" became pivotal to our project.
+        </p>
+    
+        <p>We analyzed why taking care of plants is often a daunting chore and concluded that, any one sided effort, on our part, remains futile as the plants remain a burden when we don't “see” what the plant is seeing. This mindset feeds into the treatment of plants like machinery or artificial intelligence or worse, as decoration, by many.
+        </p>
+
+        <p>In order to perceive ourselves from their “eyes” (the plant gaze) we automatically bestowed 'eyes' upon them. This marks the humanization process: projecting human characteristics, personifying, non-humans objects and beings. 
+        </p>
+    
+        <p>While humanization may seem like an oversimplification or a limitation (as evident in posthumanism and AI,  which is discussed, and given alternative to, in the fungal AI paper), we firmly believe that, in the context of our project's objective, anthropomorphism is indispensable. </p>
+    
+        <p>This is because, to deepen our connection with plants, we try to understand them, and understanding inherently implies humanizing.
+        </p>
+
+        <p>The drive to humanize is fundamental to shaping our sense of self and identity. Whether we should seek a sense of self or dismantle it is a separate discourse. What we are emphasizing is that the notion of self brings about a set of attributes that one coincides with humanism, and in humanism, there is a search for human qualities in everything around us, so that we can  project ourselves, our identity, and life onto them, and as a result begin to care for them. This outlook is integral to our project.
+        </p>
+    
+        <p>We are linking human and plant senses in the following ways:</p> 
+
+        <ul>
+            <li>When water is given to the plant it releases a pleasant smell.</li>
+            
+            <li>When the plant is thirsty/hydrated it emits a sound .
+
+            </li>
+            <li>When the plant is in a noisy environment it sends a message.</li>
+            <li>When the plant is caressed the lamp outputs varying intensity/color light.
+            </li>
+            <li>When the plant is hungry(npk nutrients)/full , it displays a visual description (spectrum).
+            </li>
+            </ul>
+    
+        <p>We've conducted research on needs like thirst, noise, food, light, touch etc to understand how they affect the plant. We want to explore how the plant can take a more active role in meeting its own needs by engaging in actions like releasing scents, producing sounds, expressing itself in humanly tangible ways, and the human, in return, will feel needed, and seen by the plant. This approach stands in stark contrast to mere automatic responses and simulates human senses through interactions.
+        </p>
+    
+        <p>In creating a space for meaningful interactions between plants and humans, we are basically crafting a narrative, building on the fact that the environment influences the plant in more ways than just light, air, water. It can cause the plant to feel (satisfaction, frustration, hatred, sadness,and fear). For example, a noisy environment may make the plant reckless or angry.
+        </p>
+    
+        <p>A certain list of plant data (ranks) could be attributed to a state. For example,  a configuration of Nitrogen level, Potassium level, Phosphorus level translates to a feeling of sadness. We can conclude that the plant is lonely.
+        </p>
+        
